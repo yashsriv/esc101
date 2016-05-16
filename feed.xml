@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Blag of Programs</title>
+    <description>A website hosting practise problems as per labs(nearly) for the course ESC101A at IIT Kanpur.
+</description>
+    <link>https://yashsriv.github.io/esc101/</link>
+    <atom:link href="https://yashsriv.github.io/esc101/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 16 May 2016 22:55:16 +0530</pubDate>
+    <lastBuildDate>Mon, 16 May 2016 22:55:16 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>IO 4</title>
+        <description>&lt;p&gt;Write a program to read 3 integers as input and output
+their sum, product, average. Output for sum and product
+will be integers and output for average will be in float,
+rounded upto three decimal places.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:15:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q4.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q4.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>IO 3</title>
+        <description>&lt;p&gt;Write a program to convert Celsius to Fahrenheit.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Fahrenheit = 9.0 / 5.0 * Celsius + 32&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Your C program should input a single float value
+denoting temperature in Celsius. The output should be
+a single float value rounded up to three decimal places
+denoting the temperature in Fahrenheit.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:10:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q3.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q3.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>IO 2</title>
+        <description>&lt;p&gt;Write a program to calculate the simple interest. &lt;code class=&quot;highlighter-rouge&quot;&gt;Simple
+Interest (SI)&lt;/code&gt; is the money paid by the borrower to the lender,
+based on the &lt;code class=&quot;highlighter-rouge&quot;&gt;Principal Amount (P)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Interst Rate(R)&lt;/code&gt; and the
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Time Period(T)&lt;/code&gt;. Simple Interest is calculated by:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SI = PTR/100&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Your program should input P followed by T followed by R.
+All values are of type &lt;code class=&quot;highlighter-rouge&quot;&gt;float&lt;/code&gt;. Output value of SI rounded
+up to three decimal places.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;31&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:05:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q2.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q2.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>IO 1</title>
+        <description>&lt;p&gt;Write a C program to convert pounds to Kilograms.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;1 pound = 0.454 kg&lt;/code&gt;. Your C program should input
+a single float value, this would be the value in Pounds.
+The output should be a single float value rounded upto
+three decimal places denoting the value in kilogram.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;540&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:00:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q1.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q1.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>Print 2</title>
+        <description>&lt;p&gt;Write a C Program to print:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&#39;a&#39; is not the same as &quot;a&quot;&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Aug 2015 14:20:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek2/q5.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q5.html</guid>
+        
+        
+        <category>labweek2</category>
+        
+      </item>
+    
+      <item>
+        <title>Print 1</title>
+        <description>&lt;p&gt;Write a C Program to print:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\n is newline, &quot; is double quote &amp;amp; \ is backslash&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Aug 2015 14:15:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek2/q4.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q4.html</guid>
+        
+        
+        <category>labweek2</category>
+        
+      </item>
+    
+      <item>
+        <title>Limit 1</title>
+        <description>&lt;p&gt;The header &lt;code class=&quot;highlighter-rouge&quot;&gt;limits.h&lt;/code&gt; defines the sizes of integral types.&lt;br /&gt;
+The variables that contain the max/min sizes for the integer&lt;br /&gt;
+type &amp;amp; the character type are &lt;code class=&quot;highlighter-rouge&quot;&gt;INT_MAX&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;INT_MIN&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;CHAR_MAX&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;CHAR_MIN&lt;/code&gt;. It is good to know these limits. Write a C Program that&lt;br /&gt;
+displays these four values in the format:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;INT_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;INT_MIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;CHAR_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;CHAR_MIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;output&quot;&gt;Output&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;INT_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2147483647&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;INT_MAIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;CHAR_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;CHAR_MIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Mon, 10 Aug 2015 14:10:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek2/q3.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q3.html</guid>
+        
+        
+        <category>labweek2</category>
+        
+      </item>
+    
+      <item>
+        <title>Compute 2</title>
+        <description>&lt;p&gt;Write a C Program to compute the area &lt;code class=&quot;highlighter-rouge&quot;&gt;pi*r^2&lt;/code&gt; of a circle of radius &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt;.&lt;br /&gt;
+Take the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;pi=3.14159265&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;r=127&lt;/code&gt; and print the result (in float).&lt;br /&gt;
+Try this problem in different ways to match the instructor’s answer.&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;1&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;by using float variables pi and r.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;2&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%lf&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;by using double variables pi and r.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;3&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14159265&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;4&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14159265&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Mon, 10 Aug 2015 14:05:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek2/q2.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q2.html</guid>
+        
+        
+        <category>labweek2</category>
+        
+      </item>
+    
+      <item>
+        <title>Compute 1</title>
+        <description>&lt;p&gt;Write a C program to compute the discriminant &lt;code class=&quot;highlighter-rouge&quot;&gt;b^2 - 4ac&lt;/code&gt;,&lt;br /&gt;
+where the integer values are &lt;code class=&quot;highlighter-rouge&quot;&gt;a = 10&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;b = -100&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;c = 1000&lt;/code&gt;&lt;br /&gt;
+and print the result.&lt;/p&gt;
+
+&lt;h2 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h2&gt;
+
+&lt;h3 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h3&gt;
+
+&lt;h4 id=&quot;input&quot;&gt;Input&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;none&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;output&quot;&gt;Output&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-30000&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Aug 2015 14:00:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek2/q1.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q1.html</guid>
+        
+        
+        <category>labweek2</category>
+        
+      </item>
+    
+  </channel>
+</rss>
