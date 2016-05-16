@@ -1,0 +1,22 @@
+---
+layout: post
+title: "IO 1"
+date: 2015-08-17 14:00:00 +0530
+categories:
+- labweek3
+---
+
+Write a C program to convert pounds to Kilograms.
+`1 pound = 0.454 kg`. Your C program should input
+a single float value, this would be the value in Pounds.
+The output should be a single float value rounded upto
+three decimal places denoting the value in kilogram.
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input : 10.0
+Output: 4.540
+```

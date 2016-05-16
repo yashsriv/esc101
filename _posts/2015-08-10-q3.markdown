@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Limit 1"
+date: 2015-08-10 14:10:00 +0530
+categories:
+- labweek2
+---
+The header `limits.h` defines the sizes of integral types.  
+The variables that contain the max/min sizes for the integer  
+type & the character type are `INT_MAX`, `INT_MIN`, `CHAR_MAX`  
+`CHAR_MIN`. It is good to know these limits. Write a C Program that  
+displays these four values in the format:
+
+{% highlight c %}
+INT_MAX =
+INT_MIN =
+CHAR_MAX =
+CHAR_MIN =
+{% endhighlight %}
+
+#### Output
+
+{% highlight c %}
+INT_MAX = 2147483647
+INT_MAIN = -2147483648
+CHAR_MAX = 255
+CHAR_MIN = 0
+{% endhighlight %}
