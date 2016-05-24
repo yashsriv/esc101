@@ -8484,10 +8484,29 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 body {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  /*@extend .grey, .darken-3;*/ }
 
 main {
   flex: 1 0 auto; }
 
 pre, code {
   background-color: #EEF; }
+
+/*
+ *nav {
+ *  @extend .grey, .darken-4;
+ *}
+ *
+ *footer {
+ *  @extend .grey, .darken-4;
+ *}
+ *
+ *a {
+ *  @extend .lime-text, .text-accent-4;
+ *}
+ *
+ *li.collection-item {
+ *  @extend .grey, .darken-4;
+ *}
+ */

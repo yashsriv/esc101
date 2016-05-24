@@ -6,14 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Blag of Programs</title>
-  <meta name="description" content="A website hosting practise problems as per labs(nearly) for the course ESC101A at IIT Kanpur.
-">
+  <title>Foot to Meter</title>
+  <meta name="description" content="Write a C Program to convert Foot to Meters.">
   <meta name="keywords" content="yash, srivastav, iitk, esc101"/>
   <meta name="author" content="Yash Srivastav /esc101"/>
 
   <link rel="stylesheet" href="/esc101/assets/css/main.css">
-  <link rel="canonical" href="https://yashsriv.github.io/esc101/">
+  <link rel="canonical" href="https://yashsriv.github.io/esc101/labweek3/q9.html">
   <link rel="alternate" type="application/rss+xml" title="A Blag of Programs" href="https://yashsriv.github.io/esc101/feed.xml">
 </head>
 
@@ -52,21 +51,54 @@
 
   <main>
     <div class="container">
-      <div class="home">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Foot to Meter</h1>
+    <p class="post-meta"><time datetime="2015-08-17T14:40:00+05:30" itemprop="datePublished">Aug 17, 2015</time></p>
+  </header>
+  <hr>
 
-  <ul class="collection">
-    
-    <li class="collection-item"> <a href="/esc101/labweek2">  labweek2 </a></li>
-    
-    <li class="collection-item"> <a href="/esc101/labweek3">  labweek3 </a></li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <p>Write a C Program to convert <code class="highlighter-rouge">Foot</code> to <code class="highlighter-rouge">Meters</code>.</p>
 
-  <p class="rss-subscribe">subscribe <a href="/esc101/feed.xml">via RSS</a></p>
-
+<div class="highlighter-rouge"><pre class="highlight"><code>1 foot = 0.305 meters
+</code></pre>
 </div>
+
+<p>Your C program should input a single float value which is the
+value in <code class="highlighter-rouge">Foot</code>. Output should be a single float value rounded
+upto three decimal places representing the distance in <code class="highlighter-rouge">Meters</code>.</p>
+
+<h5 id="test-cases">Test Cases</h5>
+
+<h6 id="test-case-1">Test Case 1</h6>
+
+<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="n">Input</span>  <span class="o">:</span> <span class="mi">10</span><span class="p">.</span><span class="mi">0</span>
+<span class="n">Output</span> <span class="o">:</span> <span class="mi">3</span><span class="p">.</span><span class="mo">050</span>
+</code></pre>
+</div>
+
+  </div>
+
+  <br><br>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://yashsriv.github.io/esc101/labweek3/q9.html';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = '/labweek3/q9.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//esc101.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</article>
 
     </div>
   </main>

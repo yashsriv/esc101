@@ -6,29 +6,62 @@
 </description>
     <link>https://yashsriv.github.io/esc101/</link>
     <atom:link href="https://yashsriv.github.io/esc101/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 May 2016 10:08:17 +0530</pubDate>
-    <lastBuildDate>Tue, 17 May 2016 10:08:17 +0530</lastBuildDate>
+    <pubDate>Tue, 24 May 2016 11:55:44 +0530</pubDate>
+    <lastBuildDate>Tue, 24 May 2016 11:55:44 +0530</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
-        <title>IO 4</title>
-        <description>&lt;p&gt;Write a program to read 3 integers as input and output
-their sum, product, average. Output for sum and product
-will be integers and output for average will be in float,
-rounded upto three decimal places.&lt;/p&gt;
+        <title>Sign</title>
+        <description>&lt;h2 id=&quot;general-rules&quot;&gt;General Rules&lt;/h2&gt;
+&lt;p&gt;Upto 20% marks will be allotted for good programming practice. These
+include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comments: for non trivial parts of code&lt;/li&gt;
+  &lt;li&gt;Indentation: align your code properly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Write a C Program to output the sign of an input float number.
+On input &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, you have to output positive, zero or negative&lt;/p&gt;
+
+&lt;p&gt;INPUT : a given in a line
+OUTPUT: input is zero &lt;strong&gt;OR&lt;/strong&gt; a is positive/negative&lt;/p&gt;
+
+&lt;p&gt;Use 4 decimal places&lt;/p&gt;
 
 &lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
 
 &lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
 
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0000&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;negative&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;h6 id=&quot;test-case-2&quot;&gt;Test Case 2&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zero&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;test-case-3&quot;&gt;Test Case 3&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0000&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;positive&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;note&quot;&gt;Note&lt;/h6&gt;
+&lt;p&gt;Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 17 Aug 2015 14:15:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek3/q4.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q4.html</guid>
+        <pubDate>Mon, 17 Aug 2015 15:10:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q15.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q15.html</guid>
         
         
         <category>labweek3</category>
@@ -36,28 +69,43 @@ rounded upto three decimal places.&lt;/p&gt;
       </item>
     
       <item>
-        <title>IO 3</title>
-        <description>&lt;p&gt;Write a program to convert Celsius to Fahrenheit.&lt;/p&gt;
+        <title>Perimeter 1</title>
+        <description>&lt;h2 id=&quot;general-rules&quot;&gt;General Rules&lt;/h2&gt;
+&lt;p&gt;Upto 20% marks will be allotted for good programming practice. These
+include:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Fahrenheit = 9.0 / 5.0 * Celsius + 32&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Comments: for non trivial parts of code&lt;/li&gt;
+  &lt;li&gt;Indentation: align your code properly&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Your C program should input a single float value
-denoting temperature in Celsius. The output should be
-a single float value rounded up to three decimal places
-denoting the temperature in Fahrenheit.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Write a C Program to calculate the perimeter of the triangle formed
+by the three points &lt;code class=&quot;highlighter-rouge&quot;&gt;(0, 0)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;(a, 0)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;(0, b)&lt;/code&gt;, where the coordinates
+are float and given by the user. The output should be rounded to four
+decimal places. The exact format should be:&lt;/p&gt;
+
+&lt;p&gt;INPUT : a b given in a line
+OUTPUT: The perimeter of O, (a, 0) and (0, b) is P&lt;/p&gt;
 
 &lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
 
 &lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
 
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;perimeter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4142&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;h6 id=&quot;note&quot;&gt;Note&lt;/h6&gt;
+&lt;p&gt;Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 17 Aug 2015 14:10:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek3/q3.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q3.html</guid>
+        <pubDate>Mon, 17 Aug 2015 15:05:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q14.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q14.html</guid>
         
         
         <category>labweek3</category>
@@ -65,183 +113,326 @@ denoting the temperature in Fahrenheit.&lt;/p&gt;
       </item>
     
       <item>
-        <title>IO 2</title>
-        <description>&lt;p&gt;Write a program to calculate the simple interest. &lt;code class=&quot;highlighter-rouge&quot;&gt;Simple
-Interest (SI)&lt;/code&gt; is the money paid by the borrower to the lender,
-based on the &lt;code class=&quot;highlighter-rouge&quot;&gt;Principal Amount (P)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Interst Rate(R)&lt;/code&gt; and the
-&lt;code class=&quot;highlighter-rouge&quot;&gt;Time Period(T)&lt;/code&gt;. Simple Interest is calculated by:&lt;/p&gt;
+        <title>Intersect 1</title>
+        <description>&lt;h2 id=&quot;general-rules&quot;&gt;General Rules&lt;/h2&gt;
+&lt;p&gt;Upto 20% marks will be allotted for good programming practice. These
+include:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SI = PTR/100&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Comments: for non trivial parts of code&lt;/li&gt;
+  &lt;li&gt;Indentation: align your code properly&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Your program should input P followed by T followed by R.
-All values are of type &lt;code class=&quot;highlighter-rouge&quot;&gt;float&lt;/code&gt;. Output value of SI rounded
-up to three decimal places.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Write a C Program to calculate the intersection point of two lines.
+All the values are in float.&lt;/p&gt;
+
+&lt;p&gt;INPUT : a1 b1 a2 b2 are given in a line. They specify the two lines
+(a1X + b1Y = 1) &amp;amp; (a2X + b2Y = 1)
+OUTPUT: If there is no intersection point, the print “INF” else print
+the intersection point upto 3 decimal places&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;test-case-2&quot;&gt;Test Case 2&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;test-case-3&quot;&gt;Test Case 3&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;INF&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;test-case-4&quot;&gt;Test Case 4&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;INF&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;note&quot;&gt;Note&lt;/h6&gt;
+&lt;p&gt;Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 15:00:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q13.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q13.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>Distance 1</title>
+        <description>&lt;h2 id=&quot;general-rules&quot;&gt;General Rules&lt;/h2&gt;
+&lt;p&gt;Upto 20% marks will be allotted for good programming practice. These
+include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comments: for non trivial parts of code&lt;/li&gt;
+  &lt;li&gt;Indentation: align your code properly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Write a C Program to calculate the distance between two points
+&lt;code class=&quot;highlighter-rouge&quot;&gt;(x1, y1)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;(x2, y2)&lt;/code&gt;, where the coordinates are float and
+are given by the user.&lt;/p&gt;
+
+&lt;p&gt;The formula for distance is:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;√ ((x1−x2)²+(y1−y2)² )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can calculate the square-root of &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; by calling the function
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sqrtf(X)&lt;/code&gt;. The result is in float.&lt;/p&gt;
+
+&lt;p&gt;INPUT Format : x1 y1 x2 y2 are given, with spaces, in this sequence in a line.
+OUTPUT Format: The distance between (x1, y1) and (x2, y2) is D&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;D&lt;/code&gt; should be rounded off to 3 decimal places.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;between&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;414&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;note&quot;&gt;Note&lt;/h6&gt;
+&lt;p&gt;Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:55:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q12.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q12.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>Area</title>
+        <description>&lt;h2 id=&quot;general-rules&quot;&gt;General Rules&lt;/h2&gt;
+&lt;p&gt;Upto 20% marks will be allotted for good programming practice. These
+include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comments: for non trivial parts of code&lt;/li&gt;
+  &lt;li&gt;Indentation: align your code properly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Write a C Program to calculate the area of a triangle formed by the
+three points &lt;code class=&quot;highlighter-rouge&quot;&gt;(a, b)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;(a, 0)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;(0, b)&lt;/code&gt;, where the coordinates
+are float and are given by the user. The output should be rounded
+to four decimal places.&lt;/p&gt;
+
+&lt;p&gt;INPUT Format: a b are given in a line
+OUTPUT Format: The area of (a, b), (a, 0) and (0, b) is A&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;0000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h6 id=&quot;note&quot;&gt;Note&lt;/h6&gt;
+&lt;p&gt;Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:50:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q11.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q11.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>Inch to Centimeter</title>
+        <description>&lt;p&gt;Write a C Program to convert &lt;code class=&quot;highlighter-rouge&quot;&gt;Inch&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Centimeters&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 inch = 2.54 centimeters
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Your C program should input a single float value which is the
+value in &lt;code class=&quot;highlighter-rouge&quot;&gt;Inch&lt;/code&gt;. Output should be a single float value rounded
+upto three decimal places representing the distance in &lt;code class=&quot;highlighter-rouge&quot;&gt;Centimeters&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:45:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q10.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q10.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>Foot to Meter</title>
+        <description>&lt;p&gt;Write a C Program to convert &lt;code class=&quot;highlighter-rouge&quot;&gt;Foot&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Meters&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 foot = 0.305 meters
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Your C program should input a single float value which is the
+value in &lt;code class=&quot;highlighter-rouge&quot;&gt;Foot&lt;/code&gt;. Output should be a single float value rounded
+upto three decimal places representing the distance in &lt;code class=&quot;highlighter-rouge&quot;&gt;Meters&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;050&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:40:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q9.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q9.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>IO 8</title>
+        <description>&lt;p&gt;Write a C Program to calculate the amount of change in potential
+energy(PE). Potential Energy is the energy stored by an object by
+virtue of it position&lt;/p&gt;
+
+&lt;p&gt;A change in potential energy is calculated by:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;PE = mg(h2 - h1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;where &lt;code class=&quot;highlighter-rouge&quot;&gt;m&lt;/code&gt; represents the mass of the body, &lt;code class=&quot;highlighter-rouge&quot;&gt;g&lt;/code&gt; represents gravitational
+field strength, &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; represents the initial height of the body and
+&lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt; represents the final resting height of the body.&lt;/p&gt;
+
+&lt;p&gt;Your program should read &lt;code class=&quot;highlighter-rouge&quot;&gt;m&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;g&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt; as floating input, and
+output the change in potential energy upto 3 decimal places.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;470&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:35:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q8.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q8.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>IO 7</title>
+        <description>&lt;p&gt;Write a C Program to convert &lt;code class=&quot;highlighter-rouge&quot;&gt;Fahrenheit&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Kelvin&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Kelvin = 5.0 / 9.0 * (Fahrenheit - 32) + 273.15
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Your C program should input a single float value. This
+would be the value in &lt;code class=&quot;highlighter-rouge&quot;&gt;Fahrenheit&lt;/code&gt;. The output should be a
+single float value rounded upto three decimal places. This
+would be the value on &lt;code class=&quot;highlighter-rouge&quot;&gt;Kelvin&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;233&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;150&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 14:30:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q7.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q7.html</guid>
+        
+        
+        <category>labweek3</category>
+        
+      </item>
+    
+      <item>
+        <title>IO 6</title>
+        <description>&lt;p&gt;Dennis has some money which he wants to deposit in a bank and
+earn some interest on it. Write a program to calculate the total
+amount that Dennis will get after application of Simple Interest.
+Formula to calculate how much Dennis gets if he deposits &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt; Rupees
+for &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; years at &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; rate of interest is given by:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Amount = P(1 + TR/100)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Your program should input &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt; followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;.
+All values are of type &lt;code class=&quot;highlighter-rouge&quot;&gt;float&lt;/code&gt;. Output value of &lt;code class=&quot;highlighter-rouge&quot;&gt;Amount&lt;/code&gt; rounded
+upto three decimal places.&lt;/p&gt;
 
 &lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
 
 &lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
 
 &lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;31&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;131&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 17 Aug 2015 14:05:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek3/q2.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q2.html</guid>
+        <pubDate>Mon, 17 Aug 2015 14:25:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek3/q6.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q6.html</guid>
         
         
         <category>labweek3</category>
-        
-      </item>
-    
-      <item>
-        <title>IO 1</title>
-        <description>&lt;p&gt;Write a C program to convert pounds to Kilograms.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;1 pound = 0.454 kg&lt;/code&gt;. Your C program should input
-a single float value, this would be the value in Pounds.
-The output should be a single float value rounded upto
-three decimal places denoting the value in kilogram.&lt;/p&gt;
-
-&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
-
-&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
-
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;540&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 17 Aug 2015 14:00:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek3/q1.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q1.html</guid>
-        
-        
-        <category>labweek3</category>
-        
-      </item>
-    
-      <item>
-        <title>Print 2</title>
-        <description>&lt;p&gt;Write a C Program to print:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&#39;a&#39; is not the same as &quot;a&quot;&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 Aug 2015 14:20:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek2/q5.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q5.html</guid>
-        
-        
-        <category>labweek2</category>
-        
-      </item>
-    
-      <item>
-        <title>Print 1</title>
-        <description>&lt;p&gt;Write a C Program to print:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\n is newline, &quot; is double quote &amp;amp; \ is backslash&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 Aug 2015 14:15:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek2/q4.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q4.html</guid>
-        
-        
-        <category>labweek2</category>
-        
-      </item>
-    
-      <item>
-        <title>Limit 1</title>
-        <description>&lt;p&gt;The header &lt;code class=&quot;highlighter-rouge&quot;&gt;limits.h&lt;/code&gt; defines the sizes of integral types.&lt;br /&gt;
-The variables that contain the max/min sizes for the integer&lt;br /&gt;
-type &amp;amp; the character type are &lt;code class=&quot;highlighter-rouge&quot;&gt;INT_MAX&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;INT_MIN&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;CHAR_MAX&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;CHAR_MIN&lt;/code&gt;. It is good to know these limits. Write a C Program that&lt;br /&gt;
-displays these four values in the format:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;INT_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;INT_MIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;CHAR_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;CHAR_MIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h4 id=&quot;output&quot;&gt;Output&lt;/h4&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;INT_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2147483647&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;INT_MAIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;CHAR_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;CHAR_MIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Mon, 10 Aug 2015 14:10:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek2/q3.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q3.html</guid>
-        
-        
-        <category>labweek2</category>
-        
-      </item>
-    
-      <item>
-        <title>Compute 2</title>
-        <description>&lt;p&gt;Write a C Program to compute the area &lt;code class=&quot;highlighter-rouge&quot;&gt;pi*r^2&lt;/code&gt; of a circle of radius &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt;.&lt;br /&gt;
-Take the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;pi=3.14159265&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;r=127&lt;/code&gt; and print the result (in float).&lt;br /&gt;
-Try this problem in different ways to match the instructor’s answer.&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;1&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;by using float variables pi and r.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;2&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%lf&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;by using double variables pi and r.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;3&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14159265&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;section-3&quot;&gt;4&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14159265&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Mon, 10 Aug 2015 14:05:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek2/q2.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q2.html</guid>
-        
-        
-        <category>labweek2</category>
-        
-      </item>
-    
-      <item>
-        <title>Compute 1</title>
-        <description>&lt;p&gt;Write a C program to compute the discriminant &lt;code class=&quot;highlighter-rouge&quot;&gt;b^2 - 4ac&lt;/code&gt;,&lt;br /&gt;
-where the integer values are &lt;code class=&quot;highlighter-rouge&quot;&gt;a = 10&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;b = -100&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;c = 1000&lt;/code&gt;&lt;br /&gt;
-and print the result.&lt;/p&gt;
-
-&lt;h2 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h2&gt;
-
-&lt;h3 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h3&gt;
-
-&lt;h4 id=&quot;input&quot;&gt;Input&lt;/h4&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;none&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;output&quot;&gt;Output&lt;/h4&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-30000&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 Aug 2015 14:00:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek2/q1.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek2/q1.html</guid>
-        
-        
-        <category>labweek2</category>
         
       </item>
     
