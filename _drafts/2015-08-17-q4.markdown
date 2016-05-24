@@ -1,0 +1,21 @@
+---
+layout: post
+title: "IO 4"
+date: 2015-08-17 14:15:00 +0530
+categories:
+- labweek3
+---
+
+Write a program to read 3 integers as input and output
+their sum, product, average. Output for sum and product
+will be integers and output for average will be in float,
+rounded upto three decimal places.
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 3 4 5
+Output : 12 60 4.000
+```
