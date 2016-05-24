@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Foot to Meter"
+date: 2015-08-17 14:40:00 +0530
+categories:
+- labweek3
+---
+
+Write a C Program to convert `Foot` to `Meters`.
+
+```
+1 foot = 0.305 meters
+```
+
+Your C program should input a single float value which is the
+value in `Foot`. Output should be a single float value rounded
+upto three decimal places representing the distance in `Meters`.
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 10.0
+Output : 3.050
+```

@@ -1,0 +1,32 @@
+---
+layout: post
+title: "IO 8"
+date: 2015-08-17 14:35:00 +0530
+categories:
+- labweek3
+---
+
+Write a C Program to calculate the amount of change in potential
+energy(PE). Potential Energy is the energy stored by an object by
+virtue of it position
+
+A change in potential energy is calculated by:
+
+```
+PE = mg(h2 - h1)
+```
+where `m` represents the mass of the body, `g` represents gravitational
+field strength, `h1` represents the initial height of the body and
+`h2` represents the final resting height of the body.
+
+Your program should read `m`, `g`, `h1` and `h2` as floating input, and
+output the change in potential energy upto 3 decimal places.
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 6 9.8 1.5 9.5
+Output : 470.400
+```

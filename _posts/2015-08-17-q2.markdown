@@ -1,0 +1,27 @@
+---
+layout: post
+title: "IO 2"
+date: 2015-08-17 14:05:00 +0530
+categories:
+- labweek3
+---
+
+Write a program to calculate the simple interest. `Simple
+Interest (SI)` is the money paid by the borrower to the lender,
+based on the `Principal Amount (P)`, `Interst Rate(R)` and the
+`Time Period(T)`. Simple Interest is calculated by:
+
+`SI = PTR/100`
+
+Your program should input P followed by T followed by R.
+All values are of type `float`. Output value of SI rounded
+up to three decimal places.
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 100 6.3 5
+Output : 31.500
+```

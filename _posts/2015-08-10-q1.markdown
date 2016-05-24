@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Compute 1"
+date: 2015-08-10 14:00:00 +0530
+categories:
+- labweek2
+---
+Write a C program to compute the discriminant `b^2 - 4ac`,  
+where the integer values are `a = 10`, `b = -100`, `c = 1000`  
+and print the result.
+
+
+## Test Cases
+
+### Test Case 1
+
+#### Input
+
+`none`
+
+#### Output
+
+`-30000`

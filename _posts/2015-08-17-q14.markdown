@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Perimeter 1"
+date: 2015-08-17 15:05:00 +0530
+categories:
+- labweek3
+---
+
+## General Rules
+Upto 20% marks will be allotted for good programming practice. These
+include:
+
+* Comments: for non trivial parts of code
+* Indentation: align your code properly
+
+---
+
+Write a C Program to calculate the perimeter of the triangle formed
+by the three points `(0, 0)`, `(a, 0)` and `(0, b)`, where the coordinates
+are float and given by the user. The output should be rounded to four
+decimal places. The exact format should be:
+
+INPUT : a b given in a line
+OUTPUT: The perimeter of O, (a, 0) and (0, b) is P
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 1 1
+Output : The perimeter of O, (1.0000, 0) and (0, 1.0000) is 3.4142
+```
+
+###### Note
+Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.

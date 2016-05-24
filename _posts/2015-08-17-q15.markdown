@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Sign"
+date: 2015-08-17 15:10:00 +0530
+categories:
+- labweek3
+---
+
+## General Rules
+Upto 20% marks will be allotted for good programming practice. These
+include:
+
+* Comments: for non trivial parts of code
+* Indentation: align your code properly
+
+---
+
+Write a C Program to output the sign of an input float number.
+On input `a`, you have to output positive, zero or negative
+
+INPUT : a given in a line
+OUTPUT: input is zero **OR** a is positive/negative
+
+Use 4 decimal places
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : -12
+Output : -12.0000 is negative
+```
+
+###### Test Case 2
+
+``` c
+Input  : 0
+Output : input is zero
+```
+
+###### Test Case 3
+
+``` c
+Input  : 1
+Output : 1.0000 is positive
+```
+
+###### Note
+Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.

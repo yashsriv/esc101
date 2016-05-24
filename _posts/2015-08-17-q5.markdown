@@ -1,0 +1,36 @@
+---
+layout: post
+title: "IO 5"
+date: 2015-08-17 14:20:00 +0530
+categories:
+- labweek3
+---
+
+Write a program to calculate the amount of change in Kinetic Energy(KE).
+Kinetic energy is the energy an object has vy virtue if its motion. A change
+in Kinetic Energy is calculated by:
+
+```
+KE = m(v1^2 - v2^2)/2
+```
+
+where `m` represents the mass of the body, `v1` represents the initial velocity
+of the body and `v2` represents the final velocity of the body. Your program
+should read `m`, `v1` and `v2` as floating point input and output the change
+in Kinetic Energy upto 3 decimal places.
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 10 1.5 4.8
+Output : 103.950
+```
+
+###### Test Case 2
+
+``` c
+Input  : 10 1.5 1.5
+Output : 0.000
+```

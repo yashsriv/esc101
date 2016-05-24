@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Distance 1"
+date: 2015-08-17 14:55:00 +0530
+categories:
+- labweek3
+---
+
+## General Rules
+Upto 20% marks will be allotted for good programming practice. These
+include:
+
+* Comments: for non trivial parts of code
+* Indentation: align your code properly
+
+---
+
+Write a C Program to calculate the distance between two points
+`(x1, y1)` and `(x2, y2)`, where the coordinates are float and
+are given by the user.
+
+The formula for distance is:
+
+```
+√ ((x1−x2)²+(y1−y2)² )
+```
+
+You can calculate the square-root of `X` by calling the function
+`sqrtf(X)`. The result is in float.
+
+INPUT Format : x1 y1 x2 y2 are given, with spaces, in this sequence in a line.
+OUTPUT Format: The distance between (x1, y1) and (x2, y2) is D
+
+`D` should be rounded off to 3 decimal places.
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 0 1 1 0
+Output : The distance between (0.000, 1.000) and (1.000, 0.000) is 1.414
+```
+
+###### Note
+Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.

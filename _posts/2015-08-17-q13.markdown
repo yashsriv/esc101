@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Intersect 1"
+date: 2015-08-17 15:00:00 +0530
+categories:
+- labweek3
+---
+
+## General Rules
+Upto 20% marks will be allotted for good programming practice. These
+include:
+
+* Comments: for non trivial parts of code
+* Indentation: align your code properly
+
+---
+
+Write a C Program to calculate the intersection point of two lines.
+All the values are in float.
+
+INPUT : a1 b1 a2 b2 are given in a line. They specify the two lines
+(a1X + b1Y = 1) & (a2X + b2Y = 1)
+OUTPUT: If there is no intersection point, the print "INF" else print
+the intersection point upto 3 decimal places
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 1 1 1 0.5
+Output : (1.000, 0.000)
+```
+
+###### Test Case 2
+
+``` c
+Input  : 1 0 0 1
+Output : (0.000, 0.000)
+```
+
+###### Test Case 3
+
+``` c
+Input  : 1 0 1 0
+Output : INF
+```
+
+###### Test Case 4
+
+``` c
+Input  : 1 0 2 0
+Output : INF
+```
+
+###### Note
+Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.

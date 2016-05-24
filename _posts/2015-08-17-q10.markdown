@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Inch to Centimeter"
+date: 2015-08-17 14:45:00 +0530
+categories:
+- labweek3
+---
+
+Write a C Program to convert `Inch` to `Centimeters`.
+
+```
+1 inch = 2.54 centimeters
+```
+
+Your C program should input a single float value which is the
+value in `Inch`. Output should be a single float value rounded
+upto three decimal places representing the distance in `Centimeters`.
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 10.0
+Output : 25.400
+```

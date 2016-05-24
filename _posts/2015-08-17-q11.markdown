@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Area"
+date: 2015-08-17 14:50:00 +0530
+categories:
+- labweek3
+---
+
+## General Rules
+Upto 20% marks will be allotted for good programming practice. These
+include:
+
+* Comments: for non trivial parts of code
+* Indentation: align your code properly
+
+---
+
+Write a C Program to calculate the area of a triangle formed by the
+three points `(a, b)`, `(a, 0)` and `(0, b)`, where the coordinates
+are float and are given by the user. The output should be rounded
+to four decimal places.
+
+INPUT Format: a b are given in a line
+OUTPUT Format: The area of (a, b), (a, 0) and (0, b) is A
+
+##### Test Cases
+
+###### Test Case 1
+
+``` c
+Input  : 1 1
+Output : The area of (1.0000, 1.0000), (1.0000, 0) and (0, 1.0000) is 0.5000
+```
+
+###### Note
+Observe the spaces given in the output format. When practising at home,
+it makes no difference but in the labs, the output should match exactly
+as specified in the format.
