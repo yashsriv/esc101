@@ -6,9 +6,33 @@
 </description>
     <link>https://yashsriv.github.io/esc101/</link>
     <atom:link href="https://yashsriv.github.io/esc101/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 May 2016 11:55:44 +0530</pubDate>
-    <lastBuildDate>Tue, 24 May 2016 11:55:44 +0530</lastBuildDate>
+    <pubDate>Sun, 19 Jun 2016 22:34:30 +0530</pubDate>
+    <lastBuildDate>Sun, 19 Jun 2016 22:34:30 +0530</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>2nd Largest among 4</title>
+        <description>&lt;h2 id=&quot;announcement&quot;&gt;ANNOUNCEMENT&lt;/h2&gt;
+
+&lt;h2 id=&quot;up-to-20-marks-will-be-allotted-for-good-programming-practice-these-include&quot;&gt;Up to 20% marks will be allotted for good programming practice. These include&lt;/h2&gt;
+
+&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
+
+&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;540&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 24 Aug 2015 14:00:00 +0530</pubDate>
+        <link>https://yashsriv.github.io/esc101/labweek4/q1.html</link>
+        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek4/q1.html</guid>
+        
+        
+        <category>labweek4</category>
+        
+      </item>
     
       <item>
         <title>Sign</title>
@@ -396,40 +420,6 @@ would be the value on &lt;code class=&quot;highlighter-rouge&quot;&gt;Kelvin&lt;
         <pubDate>Mon, 17 Aug 2015 14:30:00 +0530</pubDate>
         <link>https://yashsriv.github.io/esc101/labweek3/q7.html</link>
         <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q7.html</guid>
-        
-        
-        <category>labweek3</category>
-        
-      </item>
-    
-      <item>
-        <title>IO 6</title>
-        <description>&lt;p&gt;Dennis has some money which he wants to deposit in a bank and
-earn some interest on it. Write a program to calculate the total
-amount that Dennis will get after application of Simple Interest.
-Formula to calculate how much Dennis gets if he deposits &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt; Rupees
-for &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; years at &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; rate of interest is given by:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Amount = P(1 + TR/100)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Your program should input &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt; followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;.
-All values are of type &lt;code class=&quot;highlighter-rouge&quot;&gt;float&lt;/code&gt;. Output value of &lt;code class=&quot;highlighter-rouge&quot;&gt;Amount&lt;/code&gt; rounded
-upto three decimal places.&lt;/p&gt;
-
-&lt;h5 id=&quot;test-cases&quot;&gt;Test Cases&lt;/h5&gt;
-
-&lt;h6 id=&quot;test-case-1&quot;&gt;Test Case 1&lt;/h6&gt;
-
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;131&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 17 Aug 2015 14:25:00 +0530</pubDate>
-        <link>https://yashsriv.github.io/esc101/labweek3/q6.html</link>
-        <guid isPermaLink="true">https://yashsriv.github.io/esc101/labweek3/q6.html</guid>
         
         
         <category>labweek3</category>
