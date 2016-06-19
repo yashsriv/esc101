@@ -23,7 +23,6 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  /*@extend .grey, .darken-3;*/
 }
 
 main {
@@ -33,21 +32,3 @@ main {
 pre,code {
   background-color: #EEF;
 }
-
-/*
- *nav {
- *  @extend .grey, .darken-4;
- *}
- *
- *footer {
- *  @extend .grey, .darken-4;
- *}
- *
- *a {
- *  @extend .lime-text, .text-accent-4;
- *}
- *
- *li.collection-item {
- *  @extend .grey, .darken-4;
- *}
- */

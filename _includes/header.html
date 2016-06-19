@@ -1,14 +1,23 @@
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  {% for mypage in site.pages %} {% if mypage.title %} {% if mypage.title != "About" %} {% if mypage.title == page.title %}
+  <li class="active"><a href="{{ mypage.url | prepend: site.baseurl }}">{{ mypage.title }}</a></li>
+  {% else %}
+  <li><a href="{{ mypage.url | prepend: site.baseurl }}">{{ mypage.title }}</a></li>
+  {% endif %} {% endif %} {% endif %} {% endfor %}
+</ul>
 <header>
   <nav class="site-nav">
     <div class="nav-wrapper">
       <a href="{{ site.baseurl }}/" class="brand-logo">&nbsp;&nbsp;{{ site.title }}</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse">&nbsp;&nbsp;<i class="fa fa-bars"></i></a>
       <ul class="right hide-on-med-and-down">
-        {% for mypage in site.pages %} {% if mypage.title %} {% if mypage.title == page.title %}
+        {% for mypage in site.pages %} {% if mypage.title %} {% if mypage.title == "About" %} {% if mypage.title == page.title %}
         <li class="active"><a href="{{ mypage.url | prepend: site.baseurl }}">{{ mypage.title }}</a></li>
         {% else %}
         <li><a href="{{ mypage.url | prepend: site.baseurl }}">{{ mypage.title }}</a></li>
-        {% endif %} {% endif %} {% endfor %}
+        {% endif %} {% endif %} {% endif %} {% endfor %}
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">&nbsp;&nbsp;&nbsp;&nbsp;Pages&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
         <li><a href="{{ " /feed.xml " | prepend: site.baseurl }}">Feed</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
